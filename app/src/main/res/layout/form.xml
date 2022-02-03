@@ -54,7 +54,7 @@
                 android:text="@string/disallowed"/>
         </RadioGroup>
 
-        <EditText style="@style/item" android:id="@+id/packages"/>
+        <EditText style="@style/item" android:id="@+id/packages" android:hint="com.duckduckgo.downloads"/>
 
         <Button style="@style/item" android:id="@+id/connect" android:text="@string/connect"/>
         <Button style="@style/item" android:id="@+id/disconnect" android:text="@string/disconnect"/>
